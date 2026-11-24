@@ -1,6 +1,6 @@
 module github.com/distribution/distribution/v3
 
-go 1.18
+go 1.25.0
 
 require (
 	cloud.google.com/go/storage v1.30.1
@@ -23,7 +23,7 @@ require (
 	github.com/opencontainers/image-spec v1.0.2
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/cobra v1.6.1
-	golang.org/x/crypto v0.7.0
+	golang.org/x/crypto v0.51.0
 	golang.org/x/oauth2 v0.6.0
 	google.golang.org/api v0.114.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
@@ -62,9 +62,9 @@ require (
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/net v0.8.0 // indirect; updated for CVE-2022-27664, CVE-2022-41717
-	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/text v0.8.0 // indirect
+	golang.org/x/net v0.55.0 // indirect; updated for CVE-2022-27664, CVE-2022-41717
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230320184635-7606e756e683 // indirect
